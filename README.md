@@ -1,0 +1,1 @@
+# apache-nifi-registry-container
