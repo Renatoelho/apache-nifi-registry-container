@@ -20,10 +20,10 @@ Temos neste repositório um arquivo ***docker-compose.yml*** com todas as config
 docker-compose -f docker-compose.yaml --compatibility up -d
 ```
 
-> ***IMPORTANTE:*** No primeiro start dos serviços, pode ocorrer um erro no serviço 'nifi-registry' se a permissão de acesso ao volume criado for negada. Nesse caso, desative os serviços e ***altere as permissões do volume***. Use o comando ***sudo chmod -R 777 nifi_registry/*** e, em seguida, suba novamente os serviços. Tudo deve funcionar corretamente.
+> ***IMPORTANTE:*** No primeiro start dos serviços, pode ocorrer um erro no serviço 'nifi-registry' se a permissão de acesso ao volume criado for negada. Nesse caso, desative os serviços e ***altere as permissões do volume***. Use o comando '***sudo chmod -R 777 nifi_registry/***' e, em seguida, suba novamente os serviços. Tudo deve funcionar corretamente.
 
 
-#### Desativando o serviço
+#### Desativando os serviços
 
 ```bash
 docker-compose -f docker-compose.yaml --compatibility down
