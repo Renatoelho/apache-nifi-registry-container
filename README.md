@@ -9,6 +9,13 @@ Ao usar o docker-compose, você pode facilmente configurar e implantar esses ser
 Em resumo, executar o Apache NiFi e NiFi Registry no docker-compose permite que você implante facilmente essas ferramentas em um ambiente de contêineres e personalizar sua configuração para atender às suas necessidades específicas.
 
 
+# Requisitos
+
+Docker 23.0.3 (Host)
+
+Docker-Compose 1.25.0 (Host)
+
+
 # Ativando os serviços do Apache Nifi e Nifi Registry
 
 Temos neste repositório um arquivo ***docker-compose.yml*** com todas as configurações de integração do Apache NiFi e NiFi Registry, prontos para serem executados e utilizados imediatamente.
